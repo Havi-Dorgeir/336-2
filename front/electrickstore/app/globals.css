@@ -1,0 +1,30 @@
+*{
+box-sizing: border-box;
+}
+.cards{
+  display:grid ;
+  grid-template-columns: repeat(5,1fr);
+}
+.cards-price{
+  font-size:20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.cards-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+
+}
+.device-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.cards-title{
+  margin-right: 20px;
+  max-width: 80%;
+  white-space: normal;
+}
