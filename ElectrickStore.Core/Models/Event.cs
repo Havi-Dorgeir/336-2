@@ -18,6 +18,7 @@ namespace ElectrickStore.Core.Models
             DateOnly? date,
             TimeOnly? time,
             byte[]? photo)
+
         {
             Id = id;
             EventNo = eventNo;
@@ -55,7 +56,7 @@ namespace ElectrickStore.Core.Models
 
             if (string.IsNullOrEmpty(name) || name.Length > MAX_NAME_LENGTH)
             {
-                error = $"Name can't be empty or longer than {MAX_NAME_LENGTH} symbols";
+                error = $"Name can not be empty or longer than {MAX_NAME_LENGTH} symbols";
             }
 
             var @event = new Event(id, eventNo, venueNo, name, description, price, date, time, photo);
