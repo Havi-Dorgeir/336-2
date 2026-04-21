@@ -13,8 +13,8 @@ export default function EditingEventDataPage() {
                 <Breadcrumb.Item>Help: Adding & Editing</Breadcrumb.Item>
             </Breadcrumb>
 
-            <Title level={2}>Adding and Editing Events</Title>
-            
+            <Title level={2}>Adding and Editing Events on the Events Page</Title>
+
             <Title level={4} style={{ marginTop: '30px' }}>Overview</Title>
             <Paragraph>
                 Event details can change, and new events are constantly being planned. 
